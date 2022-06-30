@@ -1,0 +1,32 @@
+.fa-brands{
+    color: red;
+    font-size: 60px;
+}
+
+.fa-circle-chevron-left{
+    font-size: 25px;
+}
+
+.fa-circle-chevron-right{
+    font-size: 25px;
+}
+
+.fa-rotate{
+    font-size: 20px;
+}
+
+li{
+    cursor: pointer;
+    padding: 5px;
+}
+
+li .card:hover{
+
+    border: 1px solid rgba(0, 0, 255, 0.541);
+}
+
+.fa-gift{
+
+    font-size: 50px;
+    
+}

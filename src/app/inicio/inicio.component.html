@@ -1,0 +1,25 @@
+<div class="container bg-light mt-3 p-3">
+    <h1>Bienvenido a este examen sobre Angular</h1>
+    <p>Este examen contará con un total de 10 preguntas. Cada pregunta valdrá 10 puntos</p>
+    <h4>Reglas:</h4>
+    <ol>
+        <li>Las respuestas correctas valdran 1 puntos</li>
+        <li>Las respuestas incorrectas valdran -1 puntos</li>
+        <li>Tendras 60 segundos para responder cada pregunta</li>
+        <li>Si refresca la pagina se reiniciara el examen y los puntos no contaran</li>
+    </ol>
+
+    <div class="col-5">
+        <label for="">Digite su nombre:</label>
+        <input #nombre placeholder="Nombre..." type="text" class="input d-block mt-1" >
+    </div>
+
+    <div class="mt-2">
+        <button (click)="Comenzar()" type="button" routerLink="/pregunta">
+            <span class="label">Comenzar</span>
+            <span class="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path fill="currentColor" d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"></path></svg>
+            </span>
+          </button>
+    </div>
+</div>
